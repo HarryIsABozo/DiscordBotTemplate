@@ -1,0 +1,9 @@
+{
+	"token": "",
+	"dev": true,
+	"clientId": "",
+	"guildId": "",
+	"mongo": "",
+	"dbEnabled": false,
+	"devs": [""]
+}
