@@ -53,10 +53,6 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
 
 client.on(Events.ClientReady, async () => {
 	console.log(`Logged in as ${client.user?.tag}`)
-	client.user?.setActivity({
-		name: "Harry's Livery Hub",
-		type: ActivityType.Watching
-	})
 })
 
 process.on('uncaughtException', (err) =>
